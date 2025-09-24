@@ -434,23 +434,23 @@
             </div>
 
             <!-- Sección de información -->
-            <div class="lg:w-1/2">
-              <div class="bg-white rounded-lg shadow-sm p-4 md:p-6">
+            <div class="lg:w-2/3">
+              <div class="bg-white rounded-lg shadow-sm p-4 md:p-4">
                 <h1 class="text-xl md:text-2xl font-bold mb-4 text-[#0D274D]">
                   Cable UTP AMP Categoría 6 Chaqueta CMR 23AWG 6-1427200-4
                 </h1>
 
-                <!-- Precio y Botón Comprar -->
                 <div
-                  class="mb-6 flex flex-col sm:flex-row sm:items-center gap-4"
+                  class="mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4"
                 >
                   <span class="text-2xl font-bold text-blue-600"
                     >U$ 187.00 por rollo</span
                   >
                   <a
                     href="https://www.ds3comunicaciones.com/pedido.html"
-                    class="inline-flex items-center gap-2 bg-blue-600 text-white font-medium rounded-md px-6 py-3 hover:bg-blue-700 transition"
+                    class="inline-flex items-center gap-2 bg-blue-600 text-white font-medium rounded-md px-5 py-3 hover:bg-blue-700 transition md:text-sm md:px-4"
                     target="_blank"
+                    aria-label="Comprar ahora"
                   >
                     <i class="fas fa-shopping-cart"></i>
                     Comprar ahora
@@ -522,16 +522,17 @@
 
                 <!-- Pestañas: Producto / Imágenes -->
                 <div class="flex justify-center mt-6">
-                  <div class="inline-flex rounded-md shadow-sm">
+                  <div class="inline-flex rounded-md shadow-sm w-full max-w-xs">
+                    <!-- 👈 Limitar ancho máximo -->
                     <button
                       id="product-tab"
-                      class="px-6 py-2 text-sm font-medium rounded-l-lg bg-blue-600 text-white focus:z-10 focus:outline-none"
+                      class="px-4 py-2 text-sm font-medium rounded-l-lg bg-blue-600 text-white focus:z-10 focus:outline-none flex-1 text-center"
                     >
                       Producto
                     </button>
                     <button
                       id="images-tab"
-                      class="px-6 py-2 text-sm font-medium rounded-r-lg bg-gray-100 text-gray-700 focus:z-10 focus:outline-none"
+                      class="px-4 py-2 text-sm font-medium rounded-r-lg bg-gray-100 text-gray-700 focus:z-10 focus:outline-none flex-1 text-center"
                     >
                       Imágenes
                     </button>
